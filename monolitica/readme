@@ -1,0 +1,3 @@
+App construida en arquitectura monolitica ,
+Ventajas: facil de implementar , ideal para proyectos pequeños como este,
+Desventajas: baja separacion de responsabilidades , problemas de escalabilidad

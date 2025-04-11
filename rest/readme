@@ -1,0 +1,3 @@
+Aplicacion construida en arquitectura rest
+Ventajas Mayor separacion de responsabilidades , mejor escalabilidad mantenibilidad y seguridad del codigo
+Desventajas: mayor complejidad que un monolito , mayor costo al aplicar en proyectos grandes

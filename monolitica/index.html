@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Productos</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    input { margin: 5px; }
+    table { margin-top: 20px; border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+  </style>
+</head>
+<body>
+  <h2>Agregar Producto</h2>
+  <input type="text" id="nombre" placeholder="Nombre">
+  <input type="number" id="precio" placeholder="Precio">
+  <button onclick="agregarProducto()">Agregar</button>
+
+  <h2>Lista de Productos</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th><th>Nombre</th><th>Precio</th>
+      </tr>
+    </thead>
+    <tbody id="tablaProductos"></tbody>
+  </table>
+
+  <!-- 👇 Este es el cambio importante -->
+  <script src="./index.js"></script>
+</body>
+</html>
