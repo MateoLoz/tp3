@@ -9,12 +9,12 @@ app.use(cors())
 let data = []
 
 
-app.get('/',(req,res)=>{
+app.get('/productos',(req,res)=>{
     res.send(data)
 })
 
 
-app.post('/',(req,res)=> {
+app.post('/productos',(req,res)=> {
     let datos = req.body
     console.log(datos)
     data.push(datos)
