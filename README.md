@@ -2,6 +2,7 @@
 
 ## Porque es rest ?
 - porque la comunicacion entre el back y el front es por medio de urls
+- porque la comunicacion es mediante el protocolo HTTP
 - porque el front no puede invocar las funciones del back directamente
 - porque el back esta levantado sobre un servidor en express que se puede comunicar con cualquier front-end
 - porque el back-end al ser un servidor es mucho mas modular que en una arquitectura de 3 capas
